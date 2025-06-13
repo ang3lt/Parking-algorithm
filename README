@@ -1,0 +1,29 @@
+SMART PARKING SYSTEM 
+
+SCENARIO 
+
+You are a software engineer at a smart city development company. Your task is to design a Smart Parking System that keeps track of available and occupied parking spots in a shopping mall. The system should: 
+
+Register cars entering and leaving the parking lot. 
+
+Track available spots dynamically. 
+
+Charge users based on parking duration. 
+
+STEPS  
+
+Use a dictionary to store parking slots ({slot_number: car_license_plate}). 
+
+Implement functions to: 
+
+Park a car (park_car(license_plate)) 
+
+Remove a car when it leaves (remove_car(license_plate)) 
+
+Calculate the total parking fee based on time spent. 
+
+EXTRA CHALLENGES 
+
+Implement VIP parking slots that charge premium. 
+
+Add a feature to reserve spots in advance. 
